@@ -1,0 +1,44 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    {
+            "path" : "pages/movie/movie",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/but-ticket/but-ticket",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "票时代拼团",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#333333",
+	    "selectedColor": "rgb(244, 199, 8)",
+	    "backgroundColor": "#FFFFFF",
+	    "borderStyle": "black",
+	    "list": [{
+	      "pagePath": "pages/movie/movie",
+	      "text": "电影",
+	      "iconPath": "static/tabbar/movie.png",	
+	      "selectedIconPath": "static/tabbar/movied.png"	
+	    }, {	
+	      "pagePath": "pages/but-ticket/but-ticket",	
+	      "text": "购票",	
+	      "iconPath": "static/tabbar/ticket.png",	
+	      "selectedIconPath": "static/tabbar/ticketed.png"	
+	    }, {
+	      "pagePath": "pages/my/my",	
+	      "text": "我的",	
+	      "iconPath": "static/tabbar/my.png",	
+	      "selectedIconPath": "static/tabbar/myed.png"	
+	    }]	
+	  }
+}
